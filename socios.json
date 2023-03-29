@@ -1,0 +1,20 @@
+[
+  {
+    "nombre": "hernan",
+    "apellido": "woei",
+    "fechaDeNacimiento": "24/7/1998",
+    "dni": "soie",
+    "telefono": "93",
+    "miembroDesde": "22/3/2023",
+    "deporte": 1
+  },
+  {
+    "nombre": "gonzalo",
+    "apellido": "0e",
+    "fechaDeNacimiento": "30/11/2000",
+    "dni": "83",
+    "telefono": "823",
+    "miembroDesde": "22/3/2023",
+    "deporte": 0
+  }
+]
