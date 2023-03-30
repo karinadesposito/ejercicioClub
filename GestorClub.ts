@@ -33,10 +33,10 @@ agregarSocio(){
     console.log(nombreSocio);
     return nombreSocio; 
    }
-   buscarPorFechaAlta(miembroDesde:Date): string{
-    let fechaAlta :string =this.data().find((socio: { miembroDesde: Date; })=>socio.miembroDesde===miembroDesde);
-    console.log(fechaAlta);    
-    return fechaAlta; 
+   buscarPorDNI(dni:number): number{
+    let numeroDni :number =this.data().find((socio: {dni:number; })=>socio.dni===dni);
+    console.log(dni);    
+    return dni; 
    }
    buscarPorApellido(apellido:string): string{
     let apellidoSocio = this.data().find((socio: { apellido: string; })=>socio.apellido===apellido)
